@@ -7,12 +7,6 @@
 
 /* Base styles of the project */
 
-html
-    font-size: 100%
-    overflow-y: scroll
-    -webkit-text-size-adjust: 100%
-    -ms-text-size-modal-wrap: 100%
-
 body
     position: relative
     min-width: 320px
@@ -21,7 +15,22 @@ body
     font-family: $font-family-primary
     font-size: 16px
     color: $font-color-primary
-    line-height: $line-height-base
+    line-height: $line-height-main
     overflow-x: hidden
+
+/* Buttons */
+
+.btn-lg
+    background-color: transparent
+    border-radius: 5px
+    border: 1px solid rgba(19, 128, 26, 1)
+    font-family: $font-family-secondary
+
+.btn-lg:hover,
+.btn-lg:focus,
+.btn-lg:active
+    background-color: rgba(19, 128, 36, 0.54)
+    border: 1px solid rgba(19, 128, 26, 0)
+    transition: 0.5s
 
 /*----------------------------*/
