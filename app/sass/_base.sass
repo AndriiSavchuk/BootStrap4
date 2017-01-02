@@ -18,19 +18,38 @@ body
     line-height: $line-height-main
     overflow-x: hidden
 
+
 /* Buttons */
 
-.btn-lg
+.btn-lg,
+.btn-outline-success
     background-color: transparent
     border-radius: 5px
     border: 1px solid rgba(19, 128, 26, 1)
     font-family: $font-family-secondary
+    padding-top: 8px
+    padding-bottom: 12px
+    &:hover, :focus, :active
+        background-color: rgba(19, 128, 36, 0.54)
+        border: 1px solid rgba(19, 128, 26, 0)
+        transition: 0.5s
 
-.btn-lg:hover,
-.btn-lg:focus,
-.btn-lg:active
-    background-color: rgba(19, 128, 36, 0.54)
-    border: 1px solid rgba(19, 128, 26, 0)
-    transition: 0.5s
+
+/* SPAN's */
+
+.bold-green
+    color: rgba(19, 128, 36, 0.9)
+
+.underline-green
+        border-bottom: 2px solid rgba(19, 128, 36, 0.9)
+
+
+/* Float elements */
+
+.pull-xs-right
+    float: right
+
+.pull-xs-left
+    float: left
 
 /*----------------------------*/
