@@ -14,7 +14,7 @@ var gulp           = require('gulp'),
 		  ftp            = require('vinyl-ftp'),
 		  notify         = require("gulp-notify");
 
-// Скрипты проекта
+
 gulp.task('scripts', function () {
     return gulp.src([
         'app/libs/jquery/dist/jquery.min.js',
