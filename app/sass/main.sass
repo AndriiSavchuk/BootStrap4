@@ -33,6 +33,7 @@
         &:hover
             color: rgba(19, 128, 36, 0.54)
             transition: 0.3s
+            transform: scale(1.5)
 
 
 /*---- Navbar styles ----*/
@@ -70,6 +71,7 @@
                 color: rgba(19, 128, 36, 1)
                 transition: 0.5s
                 cursor: pointer
+                transform: scale(1.1)
         p
             padding-top: 1rem
             font-family: $font-family-secondary
@@ -180,6 +182,48 @@
             &:hover
                 color: rgb(19, 128, 36)
                 transition: 0.5s
+
+
+/*---- Numbers styles ----*/
+
+#numbers
+    padding: 5rem 0
+    background-color: #fff
+    .section-numbers
+        color: $font-color-secondary
+        p.under-heading
+            margin-bottom: 5rem
+
+        .number
+            padding-left: 60px
+            .number-content
+                display: table-cell
+                vertical-align: middle
+                p
+                    padding-top: 10px
+
+        .number-content
+            color: #fff
+            display: table
+            font-size: 20px
+            line-height: 20px
+            height: 140px
+            width: 140px
+            background-color: rgba(19, 128, 36, 0.9)
+            border-radius: 50%
+            text-align: center
+            transition: 1s
+            &:hover
+                color: $font-color-secondary
+                transition: 1s
+                transform: scale(1.1)
+
+
+
+
+
+
+
 
 
 
