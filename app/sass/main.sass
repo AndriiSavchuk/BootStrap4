@@ -10,7 +10,7 @@
 
 #header
     height: 100%
-    background: url("../img/trees.jpg") center
+    background: url("../img/conifers.jpg") center
     -webkit-background-size: cover
     background-size: cover
 
@@ -219,14 +219,29 @@
                 transform: scale(1.1)
 
 
+/*---- Testimonials styles ----*/
 
+#testimonials
+    padding: 5rem 0
+    .testimonial
+        margin-top: 5rem
+        color: $font-color-secondary
+        img
+            width: 120px
+            height: auto
+            border-radius: 50%
+            transition: 1s
+            &:hover
+                transition: 1s
+                transform: scale(1.1)
 
-
-
-
-
-
-
+        blockquote
+            font-family: $font-family-secondary
+            .fa-quote-right
+                margin-right: 5px
+            .testtmonial-hr
+                border-top: 1px solid  rgba(19, 128, 36, 1)
+                background-color: rgba(19, 128, 36, 1)
 
 
 /* End of Custom styles */
