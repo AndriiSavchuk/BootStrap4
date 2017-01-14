@@ -20,6 +20,7 @@ gulp.task('scripts', function () {
         'app/libs/jquery/dist/jquery.min.js',
         'app/libs/tether/dist/tether.min.js',
         'app/libs/bootstrap/dist/bootstrap.min.js',
+        'app/libs/waypoints/dist/jquery.waypoints.min.js',
         'app/js/common.js', // Всегда в конце
     ])
         .pipe(concat('scripts.min.js'))
