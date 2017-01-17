@@ -81,4 +81,34 @@ $(function() {
         offset: '50%'
     });
 
+    $('.js-wp-10').waypoint(function (direction) {
+        $('.js-wp-10').addClass('animated flipInX');
+    }, {
+        offset: '50%'
+    });
+
+    $('.js-wp-11').waypoint(function (direction) {
+        $('.js-wp-11').addClass('animated zoomIn');
+    }, {
+        offset: '50%'
+    });
+
+    $('.js-wp-12').waypoint(function (direction) {
+        $('.js-wp-12').addClass('animated zoomInLeft');
+    }, {
+        offset: '60%'
+    });
+
+    $('.js-wp-13').waypoint(function (direction) {
+        $('.js-wp-13').addClass('animated zoomIn');
+    }, {
+        offset: '60%'
+    });
+
+    $('.js-wp-14').waypoint(function (direction) {
+        $('.js-wp-14').addClass('animated zoomInRight');
+    }, {
+        offset: '60%'
+    });
+
 });
